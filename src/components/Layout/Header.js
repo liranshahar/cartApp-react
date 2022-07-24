@@ -14,7 +14,7 @@ const Header = (props) => {
 return <Fragment>
 <header className = {classes.header}>
 <h1>Reactmeals</h1>
-        <HeaderCartButton />
+        <HeaderCartButton onClick = {props.onShowCart} />
       
 
        
